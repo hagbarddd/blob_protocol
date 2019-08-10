@@ -77,7 +77,7 @@ OP_RETURN
 ```
 
 1. **Hash:** Hash of the data stored at URL
-2. **Hash Algorithm:** The Hash algorithm used (SHA256, SHA256d, MD5, etc ..)
+2. **Hash Algorithm:** The hash algorithm used (SHA256, SHA256d, MD5, etc ..)
 3. **URL:** URL pointing to the data
 4. **Media Type:** As listed at https://www.iana.org/assignments/media-types/media-types.xhtml
 5. **Encoding:** As listed at https://www.iana.org/assignments/character-sets/character-sets.xhtml (The default is `binary`)
