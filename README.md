@@ -7,7 +7,7 @@ Thanks to [Unwriter](https://github.com/unwriter) for the original B protocol.
 Thanks to [Satchmo](https://github.com/rohenaz) for support.
 
 ```
-OP_RETURN
+OP_FALSE OP_RETURN
  1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4
  [Hash of the data]
  [Hash algorithm]
@@ -21,7 +21,7 @@ OP_RETURN
 **Example 1 (Bitcoin Whitepaper PDF)**
 
 ```
-OP_RETURN
+OP_FALSE OP_RETURN
  1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4
  b1674191a88ec5cdd733e4240a81803105dc412d6c6708d53ab94fc248f4f553
  SHA256
@@ -34,7 +34,7 @@ OP_RETURN
 **Example 2 (Bitcoin Whitepaper PDF with double SHA-256)**
 
 ```
-OP_RETURN
+OP_FALSE OP_RETURN
  1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4
  316a938a719b5200d53d3099870bcc8f02365a2d5b27a8ce29468f4a79ba75ac
  SHA256d
@@ -47,7 +47,7 @@ OP_RETURN
 **Example 3 (JPG hosted on imgur)**
 
 ```
-OP_RETURN
+OP_FALSE OP_RETURN
  1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4
  3118eedceddf2608bb1d51fa6423a107d73142abb57b6e93d2553458c1d20f95
  SHA256
