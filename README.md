@@ -37,7 +37,7 @@ OP_FALSE OP_RETURN
 OP_FALSE OP_RETURN
  1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4
  316a938a719b5200d53d3099870bcc8f02365a2d5b27a8ce29468f4a79ba75ac
- SHA256d
+ SHA256-SHA256
  https://bitcoin.org/bitcoin.pdf
  application/pdf
  binary
@@ -77,7 +77,7 @@ OP_RETURN
 ```
 
 1. **Hash:** Hash of the data stored at URL
-2. **Hash Algorithm:** The hash algorithm used (SHA256, SHA256d, MD5, etc ..)
+2. **Hash Algorithm:** The hash algorithm used (SHA256, SHA256-SHA256, MD5, etc ..)
 3. **URL:** URL pointing to the data
 4. **Media Type:** As listed at https://www.iana.org/assignments/media-types/media-types.xhtml
 5. **Encoding:** As listed at https://www.iana.org/assignments/character-sets/character-sets.xhtml (The default is `binary`)
