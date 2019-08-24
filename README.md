@@ -66,7 +66,7 @@ The Bitcom prefix for the Blob protocol is `1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4`
 The general structure of the protocol is:
 
 ```markdown
-OP_RETURN
+OP_FALSE OP_RETURN
  1BLoBdFtWw7gnVbYM4CPGcq4eC8V3pfvM4
  [Hash]
  [Hash Algorithm]
